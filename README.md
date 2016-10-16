@@ -1,10 +1,21 @@
 xinput calibrator: A generic touchscreen calibration program for X.Org
 
-Version: 0.7.5
+Based on Version: 0.7.5
+
 Website: http://www.freedesktop.org/wiki/Software/xinput_calibrator
 Source:  http://github.com/tias/xinput_calibrator
 Bugs:    http://github.com/tias/xinput_calibrator/issues
 
+
+Get
+---
+In Debian 8:
+$ sudo apt-get install build-essential libx11-dev libxext-dev libxi-dev x11proto-input-dev libxrandrdev
+$ git clone https://github.com/ADTL/xinput_calibrator_d8.git
+$ cd xinput_calibrator_d8/
+$ ./configure
+$ make
+$ sudo make install
 
 Build instructions:
 -------------------
